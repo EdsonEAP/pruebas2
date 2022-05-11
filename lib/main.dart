@@ -21,8 +21,8 @@ class MyApp extends StatelessWidget {
           Column(
             children: const [
               Tarj(
-                  color11: Color.fromARGB(255, 56, 235, 21),
-                  text11: "Aceptar",
+                  color1: Color.fromARGB(255, 56, 235, 21),
+                  text1: "Aceptar",
                   color22: Color.fromARGB(255, 223, 31, 31),
                   text22: "Rechazar",
                   color3: Color.fromARGB(255, 122, 25, 170),
@@ -33,8 +33,8 @@ class MyApp extends StatelessWidget {
                   text5:
                       "here are many ways in which we can specify the color. We shall see the example Flutter . But, firstly, we shall go through a complete example"),
               Tarj(
-                  color11: Color.fromARGB(255, 59, 29, 194),
-                  text11: "Confirmar",
+                  color1: Color.fromARGB(255, 59, 29, 194),
+                  text1: "Confirmar",
                   color22: Color.fromARGB(255, 77, 24, 138),
                   text22: "Desconfirmar",
                   color3: Color.fromARGB(255, 55, 241, 48),
@@ -45,8 +45,8 @@ class MyApp extends StatelessWidget {
                   text5:
                       "here are many ways in which we can specify the color. We shall see the example Flutter . But, firstly, we shall go through a complete example"),
               Tarj(
-                  color11: Color.fromARGB(255, 209, 198, 35),
-                  text11: "Agregar",
+                  color1: Color.fromARGB(255, 209, 198, 35),
+                  text1: "Agregar",
                   color22: Color.fromARGB(255, 33, 163, 88),
                   text22: "Eliominar",
                   color3: Color.fromARGB(255, 226, 230, 20),
@@ -57,8 +57,8 @@ class MyApp extends StatelessWidget {
                   text5:
                       "here are many ways in which we can specify the color. We shall see the example Flutter . But, firstly, we shall go through a complete example"),
               Tarj(
-                  color11: Color.fromARGB(255, 56, 235, 21),
-                  text11: "Aceptar",
+                  color1: Color.fromARGB(255, 56, 235, 21),
+                  text1: "Aceptar",
                   color22: Color.fromARGB(255, 223, 31, 31),
                   text22: "Rechazar",
                   color3: Color.fromARGB(255, 122, 25, 170),
@@ -69,8 +69,8 @@ class MyApp extends StatelessWidget {
                   text5:
                       "here are many ways in which we can specify the color. We shall see the example Flutter . But, firstly, we shall go through a complete example"),
               Tarj(
-                  color11: Color.fromARGB(255, 59, 29, 194),
-                  text11: "Confirmar",
+                  color1: Color.fromARGB(255, 59, 29, 194),
+                  text1: "Confirmar",
                   color22: Color.fromARGB(255, 77, 24, 138),
                   text22: "Desconfirmar",
                   color3: Color.fromARGB(255, 55, 241, 48),
@@ -81,8 +81,8 @@ class MyApp extends StatelessWidget {
                   text5:
                       "here are many ways in which we can specify the color. We shall see the example Flutter . But, firstly, we shall go through a complete example"),
               Tarj(
-                  color11: Color.fromARGB(255, 209, 198, 35),
-                  text11: "Agregar",
+                  color1: Color.fromARGB(255, 209, 198, 35),
+                  text1: "Agregar",
                   color22: Color.fromARGB(255, 33, 163, 88),
                   text22: "Eliominar",
                   color3: Color.fromARGB(255, 226, 230, 20),

@@ -1,12 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'cuadrito/cuadrito.dart';
-
 class Tarj extends StatelessWidget {
   const Tarj({
     Key? key,
-    required this.text11,
-    required this.color11,
     required this.text22,
     required this.color22,
     required this.color3,
@@ -15,38 +11,24 @@ class Tarj extends StatelessWidget {
     required this.text3,
     required this.text4,
     required this.text5,
+    required this.text1,
+    required this.color1,
   }) : super(key: key);
-  //double: numeros, string letras
-  final String text11;
-  final Color color11;
-  final String text22;
-  final Color color22;
-  final Color color3;
-  final Color color4;
-  final Color color5;
-  final String text3;
-  final String text4;
-  final String text5;
+  final String text22, text3, text4, text5, text1;
+  final Color color22, color3, color4, color5, color1;
 
   @override
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
-      //dimensiones
       width: 400,
       height: 180,
-      //margen del borde hacia fuera, all es para todos los lados del margen
       margin: EdgeInsets.fromLTRB(30, 30, 30, 0),
-      //Box decoration es para la decoracion del container
       decoration: BoxDecoration(
-          color: Colors.white30,
-          //width es para el grosor del borde
-          //border: Border.all(color: Color.fromARGB(255, 37, 29, 29), width: 0),
-          //Radio del borde
-          borderRadius: BorderRadius.circular(15)),
+          color: Colors.white30, borderRadius: BorderRadius.circular(15)),
       child: Row(children: [
         Container(
-          padding: EdgeInsets.symmetric(vertical: 10, horizontal: 100),
+          padding: EdgeInsets.symmetric(vertical: 10, horizontal: 10),
           width: 100,
           height: 160,
           margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
@@ -128,19 +110,27 @@ class Tarj extends StatelessWidget {
                 Align(
                   alignment: Alignment.bottomLeft,
                   child: Row(children: [
-                    Cuadritos(
-                      text1: text11,
-                      color1: color11,
-                    ),
-                    Cuadritos(
-                      text1: text22,
-                      color1: color22,
-                    ),
+                    cuadritos(),
+                    cuadritos(),
                   ]),
                 ),
               ]),
         ),
       ]),
+    );
+  }
+
+  cuadritos() {
+    return Container(
+      padding: EdgeInsets.symmetric(vertical: 3, horizontal: 18),
+      decoration: BoxDecoration(
+          color: Color.fromARGB(255, 255, 255, 255),
+          border: Border.all(color: color1, width: 1),
+          borderRadius: BorderRadius.circular(15)),
+      child: Text(text1,
+          style: TextStyle(
+            fontSize: 8,
+          )),
     );
   }
 }
